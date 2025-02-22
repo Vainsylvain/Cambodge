@@ -1,0 +1,77 @@
+html,
+body {
+    background: url(Images/Cambodia/angkor_wat_sun.jpg) fixed no-repeat top center;
+    margin: 0;
+    padding: 0;
+    -webkit-background-size: cover;
+    /* pour anciens Chrome et Safari */
+    background-size: cover;
+    /* version standardisée */
+    /*background-color: whitesmoke !important;*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#start {
+    height: 48em;
+}
+
+#loginForm {
+    margin: 0 auto;
+    margin-top: 17em !important;
+    max-width: 11em !important;
+}
+
+input {
+    text-align: center;
+}
+
+.imageStyle {
+    height: 25em;
+    object-fit: contain;
+    margin: 5px 15px 5px 0px;
+    box-shadow: 5px 5px 5px whitesmoke;
+}
+
+.videoStyle {
+    height: 25em;
+    object-fit: contain;
+    margin: 5px 15px 5px 0px;
+    box-shadow: 5px 5px 5px whitesmoke;
+    vertical-align: top;
+    text-align: left;
+}
+
+img {
+    transition: 1s;
+}
+
+img:active {
+    -ms-transform: scale(2);
+    /* IE 9 */
+    -webkit-transform: scale(2);
+    /* Safari 3-8 */
+    transform: scale(2);
+}
+
+
+/*
+
+@media only screen and (min-width: 1000px) {
+    img:hover {
+        -ms-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+}
+
+*/

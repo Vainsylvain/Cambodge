@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Album photo voyage</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+    <div class="container">
+        <form id="loginForm">
+            <div class="col-md-12">
+                <div class="row text-center justify-content-center mt-3 mb-3">
+                    <input type="password" id="password" placeholder="Mot de passe"><br>
+                    <button type="submit">Connexion</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script>
+        const loginForm = document.getElementById("loginForm");
+        loginForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            const password = document.getElementById("password").value;
+
+            if (btoa(password) === "dG91cm5lbGlyZWxpcmVsaQ==") {
+                window.location.href = "./photos.html";
+            }
+        });
+    </script>
+</body>

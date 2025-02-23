@@ -36,13 +36,14 @@ input {
 }
 
 .imageStyle {
-    height: 25em;
+    height: 15em;
     object-fit: contain;
     margin: 5px 15px 5px 0px;
     box-shadow: 5px 5px 5px whitesmoke;
 }
 
 .videoStyle {
+    display: none;
     height: 25em;
     object-fit: contain;
     margin: 5px 15px 5px 0px;

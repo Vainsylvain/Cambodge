@@ -55,7 +55,7 @@ img {
     transition: 1s;
 }
 
-img:active {
+img:focus {
     -ms-transform: scale(2);
     /* IE 9 */
     -webkit-transform: scale(2);
